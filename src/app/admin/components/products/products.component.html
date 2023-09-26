@@ -1,0 +1,13 @@
+<mat-drawer-container class="product-create">
+  <mat-drawer mode="side" opened>
+    <app-create (createdProduct)="createdProduct($event)"> 
+      <!--CreateComponentinin içinde oluşturuyoruz. app-create componentin içindki selector-->
+    </app-create>
+  </mat-drawer>
+
+  <mat-drawer-content>
+    <app-list>
+      <!--Listeleme bölümü-->
+    </app-list>
+  </mat-drawer-content>
+</mat-drawer-container>

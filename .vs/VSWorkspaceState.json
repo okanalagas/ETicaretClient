@@ -1,11 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\app",
-    "\\src\\app\\services",
-    "\\src\\app\\services\\common"
+    ""
   ],
-  "SelectedNode": "\\src\\app\\services\\common\\dialog.service.ts",
   "PreviewInSolutionExplorer": false
 }
